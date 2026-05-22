@@ -4,20 +4,28 @@
  */
 package gestaoEscolar;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Alexandre
  */
 public class DiarioDeClasse implements Avaliacao{
 
+    private List<Nota> notas = new ArrayList();
+    private List<Frequencia> frequencias = new ArrayList();
+    
+    
+    
     @Override
     public void registrarNota(Aluno aluno, Disciplina disciplina, double nota) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+      
     }
 
     @Override
     public void registrarFrequencia(Aluno aluno, Disciplina disciplina, boolean presente) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+      
     }
     
 }
